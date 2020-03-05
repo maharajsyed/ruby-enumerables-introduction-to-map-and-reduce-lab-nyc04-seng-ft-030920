@@ -25,5 +25,5 @@ def reduce_to_total(array)
 end
 
 def reduce_to_total(array, starting_point = 0)
-  array.reduce(starting_point){|a, i| a + i}
+  array.reduce(starting_point){|t, i| t + i}
 end

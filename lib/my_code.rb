@@ -23,3 +23,5 @@ end
 def reduce_to_total(array)
   array.reduce(:+)
 end
+
+def reduce

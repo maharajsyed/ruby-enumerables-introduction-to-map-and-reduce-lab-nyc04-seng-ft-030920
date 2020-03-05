@@ -20,10 +20,6 @@ end
 
 #reduce-like
 
-def reduce_to_total_source_array(array)
+def reduce_to_total(array)
   array.reduce(:+)
-end
-
-def reduce_to_total_starting_point(array)
-  array.reduce(0){|sum, num| sum + num}
 end

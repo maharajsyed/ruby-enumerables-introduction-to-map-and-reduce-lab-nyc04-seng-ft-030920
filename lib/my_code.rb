@@ -20,8 +20,9 @@ end
 
 #reduce-like
 
-def reduce_to_total(array)
+def reduce_to_total_source_array(array)
   array.reduce(:+)
 end
 
-def reduce
+def reduce_to_total_starting_point(array)
+  array.reduce(0)

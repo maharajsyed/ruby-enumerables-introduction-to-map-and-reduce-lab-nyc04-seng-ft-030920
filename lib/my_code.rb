@@ -23,3 +23,7 @@ end
 def reduce_to_total(array)
   array.reduce(:+)
 end
+
+def reduce_to_total(array, starting_point = 0)
+  array.reduce(starting_point){|sum, num| sum + num}
+end

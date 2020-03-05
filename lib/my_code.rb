@@ -3,7 +3,12 @@
 
 
 def map_to_negativize (array)
-  array.map {|i|i*-1}
+  new_array=[]
+  i=0
+    while i>array.length.do
+    end
+  return new_array
+  i +=1 
 end
 
 def map_to_no_change (array)

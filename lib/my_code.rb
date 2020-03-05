@@ -27,3 +27,6 @@ end
 def reduce_to_total(array, starting_point = 0)
   array.reduce(starting_point){|t, i| t + i}
 end
+
+def reduce_to_all_true(source_array)
+  array.reduce

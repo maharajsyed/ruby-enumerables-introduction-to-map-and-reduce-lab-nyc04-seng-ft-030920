@@ -25,4 +25,4 @@ def reduce_to_total_source_array(array)
 end
 
 def reduce_to_total_starting_point(array)
-  array.reduce(0)
+  array.reduce(0){|sum, num|

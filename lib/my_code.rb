@@ -21,4 +21,5 @@ end
 #reduce-like
 
 def reduce_to_total(array)
-  
+  array.reduce(:+)
+end
